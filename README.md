@@ -1,6 +1,10 @@
 # CHAT AJT
 
-[label](newvideo.mp4)
+
+
+https://github.com/Aridsondez/Chat_AJT/assets/153782619/980bed5b-7c72-424b-b121-022aa2f96bcf
+
+
 
 ### CHAT AJT is a chat application powered by OpenAI's GPT-3.5-turbo API. It allows users to engage in conversations with an AI chatbot that generates responses based on their input. It also uses firebase for user Authentication. Using FireBase API and live database we can allow authorized users to use the CHAT AJT service.
 
