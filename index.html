@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Gpt Clone</title>
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57b4a3c229.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background">
+
+    <!--Side bar-->
+    <div class="sidebar">
+        <a href="">
+        <div class="newchat">
+        
+            <img src="assets/logo.png">
+            <p>New chat</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+        </a>
+        <div class="past-questions">
+            <nav></nav>
+        </div>
+        <div class="scrollwheel"></div>
+        <div class="close-sidebar"></div>
+    </div>
+
+    <div class="account-box">
+        <img src="assets/no profile.png">
+        <p id="account-name">AJ Jerome</p>
+    </div>
+
+    <!--The response from AJT-->
+    <div class="response">
+        <div class="responses" id="responses"></div>
+    </div>
+
+    <!--The response from the User-->
+    <div class="text-area" id="input">
+        <div class="input">
+            <textarea id="text">Message ChatAJT...</textarea>
+        </div>
+        <div class="enter-button">
+            <div id="buttonelement">
+                <button class="button-white" id="theButton"><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
